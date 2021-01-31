@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F4C672D25C6ACEA0055195A /* logow2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F4C672C25C6ACEA0055195A /* logow2.jpg */; };
 		6FC6022F25C5600300815385 /* logow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FC6022E25C5600300815385 /* logow.jpg */; };
 		958BBAF91BC7B272008F1753 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958BBAF81BC7B272008F1753 /* AppDelegate.swift */; };
 		958BBAFB1BC7B272008F1753 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958BBAFA1BC7B272008F1753 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F4C672C25C6ACEA0055195A /* logow2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logow2.jpg; sourceTree = "<group>"; };
 		6FC6022E25C5600300815385 /* logow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logow.jpg; sourceTree = "<group>"; };
 		958BBAF51BC7B272008F1753 /* To Do Bestt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To Do Bestt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		958BBAF81BC7B272008F1753 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				6FC6022E25C5600300815385 /* logow.jpg */,
+				6F4C672C25C6ACEA0055195A /* logow2.jpg */,
 				95F9184C1BC834A100815E17 /* noTask.png */,
 				958BBB361BC7C705008F1753 /* newTask.png */,
 				958BBB371BC7C705008F1753 /* newTask@2x.png */,
@@ -251,6 +254,7 @@
 				958BBB3A1BC7C705008F1753 /* newTask@2x.png in Resources */,
 				958BBB391BC7C705008F1753 /* newTask.png in Resources */,
 				958BBB031BC7B272008F1753 /* LaunchScreen.storyboard in Resources */,
+				6F4C672D25C6ACEA0055195A /* logow2.jpg in Resources */,
 				95F9184D1BC834A100815E17 /* noTask.png in Resources */,
 				958BBB3B1BC7C705008F1753 /* newTask@3x.png in Resources */,
 				6FC6022F25C5600300815385 /* logow.jpg in Resources */,

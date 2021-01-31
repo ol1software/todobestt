@@ -41,9 +41,27 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet var googleAdMobHeightConstraint: NSLayoutConstraint!
     
     
+    @IBOutlet weak var botonTip: UIButton!
     
     
+    @IBOutlet weak var botonOL1: UIImageView!
     
+    @IBOutlet weak var botonDere: UIButton!
+    
+    // VARIABLES
+    // *******************
+    // *******************
+    
+       var c = [String]()
+    
+
+    
+    
+    // **
+    // **
+    
+    //
+     // ********************************
     // INICIO
     // ********************************
     
@@ -52,13 +70,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var c = [String]()
-     
-        c.append("ToDoBestt free !:  add things with PLUS sign!")
-        c.append("You can add your things to do with the + sign and hitting enter")
-        c.append("Always get your to do things saved on your iphone, quick and free")
-        c.append("Easy and powerful tool to get your things saved")
-        c.append("Thanks for usign TODOBESTT: my free app to save quick notes / things to do")
+
 
         
         
@@ -99,8 +111,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         self.tableView.rowHeight = 40.0
         
         
-        let number = Int.random(in: 0...4)
-        popup(titulo: c[number])
+
         }
         //** END INICIO
         
@@ -113,13 +124,42 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
         
         // ************************* FUNCIONES
+    
+    
+    
+    
+    
+    
+    
+    @IBAction func FbotonTip(_ sender: Any) {
+        c.append("ToDoBestt free !:  add things with PLUS sign!")
+        c.append("You can add your things to do with the + sign and hitting enter")
+        c.append("Always get your to do things saved on your iphone, quick and free")
+        c.append("Free, Easy and powerful tool to get your things saved")
+        c.append("Thanks for usign TODOBESTT: my free app to save quick notes / things to do")
+        c.append("a powerful and free tool, save your quick notes")
+        c.append("delete your things just slide left on the line and click Delete")
+        c.append("a fast and reliable 'to do' tool, for iOS")
+        let number = Int.random(in: 0...7)
+        popup(titulo: c[number])
+    }
+    
+    
+    
+    @IBAction func FbotonDere(_ sender: UIButton) {
+        var c1: String  = "a free and powerful tool to save your todo things on your iphone- , ==visit @ol1software==(tw & ig), <<xCode 11 and swift>>* Thanks for using *"
         
+        popup(titulo: c1)
+        
+    }
+    
+    
         
         //**** FUNCION PARA CREAR POPUP
         func popup(titulo: String)
         {
             // create the actual alert controller view that will be the pop-up
-            let alertController = UIAlertController(title: "ToDoBestt: Tip of the day", message: titulo, preferredStyle: .alert)
+            let alertController = UIAlertController(title: "ToDoBestt", message: titulo, preferredStyle: .alert)
 
             // add the buttons/actions to the view controller
             //let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
